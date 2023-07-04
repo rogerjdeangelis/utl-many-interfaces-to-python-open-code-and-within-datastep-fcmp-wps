@@ -2,6 +2,10 @@
 
 Integrating SAS and frop down to Python inside and outside the SAS datastep
 
+github                                                                                                  
+https://tinyurl.com/bdeukwnn                                                                            
+https://github.com/rogerjdeangelis/utl-many-interfaces-to-python-open-code-and-within-datastep-fcmp-wps 
+                                                                                                        
 You may neeed to use the 1980s classic editor for some of these, not tested on the many sas editors..
 
 Drop down macros on end

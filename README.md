@@ -1317,7 +1317,7 @@ Integrating SAS and frop down to Python inside and outside the SAS datastep
       input;
       putlog _infile_;
     run;quit;
-    %if "&returnVarName" ne ""  %then %do;
+    %if "&return" ne ""  %then %do;
       filename clp clipbrd ;
       data _null_;
        infile clp;

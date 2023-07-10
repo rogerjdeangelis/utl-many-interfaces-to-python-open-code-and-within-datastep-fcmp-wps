@@ -1116,7 +1116,7 @@ Integrating SAS and frop down to Python inside and outside the SAS datastep
       data _null_;                                                                                                                                            
           length pgm  $32755 cmd $1024;                                                                                                                       
           file py_pgm ;                                                                                                                                       
-          pgm=resolve(&pgm);                                                                                                                                  
+          pgm=&pgm;                                                                                                                                  
           semi=countc(pgm,";");                                                                                                                               
             do idx=1 to semi;                                                                                                                                 
               cmd=cats(scan(pgm,idx,";"));                                                                                                                    
